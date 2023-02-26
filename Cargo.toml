@@ -10,3 +10,19 @@ diesel = { version = "1.4.7", features = ["mysql"] }
 dotenv = "0.15.0"
 actix-web = "4.0.0"
 actix-files = "0.6.2"
+serde = { version = "1.0.130", features = ["derive"] }
+serde_json = "1.0.64"
+chrono = { version = "0.4.19", features = ["serde"] }
+r2d2 = "0.8.9"
+r2d2_sqlite = "0.11.0"
+uuid = { version = "0.8.2", features = ["v4"] }
+bcrypt = "0.10.1"
+actix-rt = "2.4.1"
+actix-web-httpauth = "0.8.0"
+actix-session = "0.4.0"
+actix-web-actors = "4.2.0"
+mime = "0.3.16"
+actix-cors = "0.6.4"
+actix-multipart = "0.5.0"
+env_logger = "0.9.0"
+log = "0.4.14"
