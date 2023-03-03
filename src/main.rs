@@ -27,7 +27,7 @@ async fn main() -> std::io::Result<()> {
 
     HttpServer::new(move || {
         App::new()
-            .app_data(handlebars.clone())
+            .data(handlebars.clone())
             .route("/", web::get().to(index))
     })
     .bind("127.0.0.1:8000")?
